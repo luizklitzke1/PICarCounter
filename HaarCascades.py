@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 car_cascade = cv2.CascadeClassifier("cascades/cars.xml")
 
 #https://www.geeksforgeeks.org/python-play-a-video-using-opencv/
-card_video_cap = cv2.VideoCapture("/content/samples/cars.avi")
+card_video_cap = cv2.VideoCapture("samples/cars.avi")
 if (card_video_cap.isOpened() == False): 
     print("Erro ao abrir o arquivo de vídeo.") 
 
